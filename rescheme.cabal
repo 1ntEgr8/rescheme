@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9f7ee656946dfb338f3e7413857e5dff254773ba17f992b14debe929208b0752
+-- hash: b349357af1e3c66f00d3fe1872c0b13068b3938ca4eaba19f5e8c8eee4fb0b08
 
 name:           rescheme
 version:        0.1.0.0
@@ -27,7 +27,10 @@ source-repository head
 
 library
   exposed-modules:
+      Eval
       Lib
+      Parser
+      Value
   other-modules:
       Paths_rescheme
   hs-source-dirs:
